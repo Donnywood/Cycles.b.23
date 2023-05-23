@@ -29,6 +29,16 @@ for (let i = 0; i < 2; i++) {
     personalMovieDB.movies[a] = b;
 }
 
+if (personalMovieDB.count < 10) {
+    console.log("Мало фильмов смотрешь,дурачёк");
+} else if (personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
+    console.log("Классический проёбщик времени");
+} else if (personalMovieDB.count >= 30) {
+    console.log("Looool zadrot");
+} else {
+    console.log("ERROR MAZAFAK");
+}
+
 console.log(personalMovieDB);
 
 
